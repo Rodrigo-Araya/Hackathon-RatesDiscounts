@@ -148,9 +148,11 @@ with st.spinner('Making calculations...'):
     #     st.dataframe(data)
 
     st.success("""
-        First offer to potential guest: {}. Discount percent: {}%""".format(
-                                                str(round(actual_rent*(1-disc),2)),
-                                                str(disc)))
+        First offer to potential guest: {}.
+        
+        Discount percent: {}%""".format(
+                        str(round(actual_rent*(1-disc),2)),
+                        str(100*disc)))
     st.dataframe(data)
 
     
