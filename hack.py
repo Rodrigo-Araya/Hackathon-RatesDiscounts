@@ -85,7 +85,7 @@ def get_max_discount(country,end,start):
     return dis_matrix.iloc[0,0]
 
 
-st.title('Min Rate Helper')
+st.title('Reservation Sales Quote Builder')
 st.markdown("""This is the first version of this program. The idea is help CX team in theirs daily works when they receive a guest's phone call asking for discount in a certain timefrime.""")
 # Ask for the word to search for
 
